@@ -1,8 +1,20 @@
-# React + Vite
+# 🔐 React Signup Form Validation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **signup form** in React with **real-time validation**: fields turn green or red as you type.
 
-Currently, two official plugins are available:
+🔗 **Live demo:** https://sonu2002.github.io/react-form-validation/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- Email format validation with a regular expression
+- Password length rule
+- Confirm-password matching
+- Live visual feedback using React `useState` and `useEffect`
+
+## 🛠️ Tech stack
+`React` · `Vite` · `Tailwind CSS`
+
+## 🚀 Run locally
+```bash
+npm install
+npm run dev
+```
